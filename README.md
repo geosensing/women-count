@@ -27,7 +27,7 @@ The data we finally collected in this round bears little resemblance to the orig
 
 ### Results
 
-On average about 81.5% of the people on the street were men. The average proportion of men across various locations was 86.7% which suggests that somewhat busier places have somewhat more women.
+The data were collected between 2016-11-12 and 2017-01-11. And between roughly 10 am and 7 pm. On average about 81.5% of the people on the street were men. The average proportion of men across various locations was 86.7% which suggests that somewhat busier places have somewhat more women.
 
 ### Author
 
