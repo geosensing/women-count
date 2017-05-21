@@ -22,7 +22,7 @@ The data we finally collected in this round bears little resemblance to the orig
 - [Rename (for Mturk) and Resize files](scripts/03_rename_resize.R)
 - [Screenshot of the MTurk HIT](data/mturk_hit.png)
 - [Map of Data Collection Locations And Amount of Data Collected at Each Location](https://cdn.rawgit.com/soodoku/women-count/4073e53f/res/osm_overlay_circle.html)
-- [Metadata + Data from MTurk](data/)
+- [Metadata + Data from MTurk](data/batch_2808915_batch_results.csv)
 - [Analysis](scripts/analysis.md)
 
 ### Results
