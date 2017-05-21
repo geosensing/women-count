@@ -14,6 +14,44 @@ setwd("women-count/")
 mturk <- read.csv("data/batch_2808915_batch_results.csv")
 ```
 
+Range of date and time
+
+```{r, eval=TRUE, date}
+range(mturk$Input.exif_date)
+```
+
+```
+## [1] "2016-11-12" "2017-01-11"
+```
+
+```{r, eval=TRUE, time}
+range(mturk$Input.exif_time)
+```
+
+```
+## [1] "10:09:03" "19:00:04"
+```
+
+Total number of unique locations
+
+```
+length(unique(mturk$Input.id))
+```
+
+```
+## [1] 196
+```
+
+Total number of photos
+
+```
+length(unique(mturk$Input.file_id))
+```
+
+```
+## [1] 1958
+```
+
 Average Estimate (Averaging the three ratings) per photo:
 
 ```r
