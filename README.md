@@ -10,24 +10,24 @@ To estimate 'missing women,' we need a baseline. While there are some plausible 
 
 Of all the people out on the street over the course of a typical day in Delhi, what proportion are women? To answer that, I devised what I thought was a pretty reasonable sampling plan, and a pretty clever data collection strategy [see here](original_data_collection_plan.md). Essentially, we would send people at random street locations at random times and ask them to take photos at head height, and then crowd-source counting the total number of people in the picture and the total number of women in the picture.
 
-The data we finally collected in this round bears little resemblance to the original data collection plan. As to why the data collection went off rails, we have nothing to share publicly for now. The [map](https://raw.githubusercontent.com/soodoku/women-count/master/res/osm_overlay_circle.html) of the places from which we collect data though lays bare the problems. 
+The data we finally collected in this round bears little resemblance to the original data collection plan. As to why the data collection went off rails, we have nothing to share publicly for now. The [map](https://cdn.rawgit.com/soodoku/women-count/4073e53f/res/osm_overlay_circle.html) of the places from which we collect data though lays bare the problems. 
  
 ### Data, Scripts, and Analyses
 
 - [Original Photos](http://dx.doi.org/10.7910/DVN/CZBHQO)
 - Get meta data about the photos, including exif information
     - [data](data/photos_meta_exif.csv)
-    - [script](scripts/photos_exif_csv.ipynb) to extract the exif information and some of the meta data.
+    - [script](scripts/01_photos_exif_csv.ipynb) to extract the exif information and some of the meta data.
 - [Flatten the directory structure](scripts/02_flatten_dir.bat) of photos
 - [Rename (for Mturk) and Resize files](scripts/03_rename_resize.R)
 - [Screenshot of the MTurk HIT](data/mturk_hit.png)
-- [Map of Data Collection Locations And Amount of Data Collected at Each Location](https://raw.githubusercontent.com/soodoku/women-count/master/res/osm_overlay_circle.html)
+- [Map of Data Collection Locations And Amount of Data Collected at Each Location](https://cdn.rawgit.com/soodoku/women-count/4073e53f/res/osm_overlay_circle.html)
 - [Metadata + Data from MTurk](data/)
 - [Analysis](scripts/analysis.md)
 
 ### Results
 
-On average about 81.5% of the people on the street that were men. The average proportion of men across various locations was 86.7% which suggests that somewhat busier places have somewhat more women.
+On average about 81.5% of the people on the street were men. The average proportion of men across various locations was 86.7% which suggests that somewhat busier places have somewhat more women.
 
 ### Author
 
